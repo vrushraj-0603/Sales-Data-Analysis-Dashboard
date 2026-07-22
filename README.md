@@ -38,10 +38,10 @@ Sample Superstore Dataset (CSV)
 ## Files
 
 ```
-Sales_Data_Analysis.ipynb
+analysis(1).ipynb
+app.py
 Cleaned_Superstore.csv
-Sales_Dashboard.pbix
-Dashboard_Screenshot.png
+Superstore_Dashboard.pbix
 Project_Report.pdf
 README.md
 ```
