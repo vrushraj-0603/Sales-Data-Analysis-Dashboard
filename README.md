@@ -42,7 +42,6 @@ analysis(1).ipynb
 app.py
 Cleaned_Superstore.csv
 Superstore_Dashboard.pbix
-Project_Report.pdf
 README.md
 ```
 
