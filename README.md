@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Sales Data Analysis Dashboard** project analyzes retail sales data using **Python** and **Power BI** to generate meaningful business insights. The project includes data cleaning, exploratory data analysis (EDA), data visualization, and an interactive dashboard for monitoring sales performance, profit trends, product performance, and regional sales.
+The **Sales Data Analysis Dashboard** project analyzes retail sales data using **Python**, **Power BI**, and **Streamlit** to generate meaningful business insights. The project includes data cleaning, exploratory data analysis (EDA), data visualization, an interactive Power BI dashboard, and a live Streamlit web application.
 
 ---
 
@@ -14,6 +14,7 @@ The **Sales Data Analysis Dashboard** project analyzes retail sales data using *
 - Compare sales across different regions.
 - Analyze monthly sales trends.
 - Build an interactive Power BI dashboard.
+- Deploy the project using Streamlit.
 
 ---
 
@@ -24,6 +25,7 @@ The **Sales Data Analysis Dashboard** project analyzes retail sales data using *
 - Matplotlib
 - Jupyter Notebook
 - Power BI
+- Streamlit
 
 ---
 
@@ -53,19 +55,29 @@ The dataset contains information such as:
 4. Conduct Exploratory Data Analysis (EDA).
 5. Create visualizations.
 6. Build an interactive Power BI dashboard.
-7. Generate business insights.
+7. Deploy the project using Streamlit.
+8. Generate business insights.
+
+---
+
+## Live Demo
+
+**Streamlit App**
+
+https://sales-data-analysis-dashboard-jfczdt6cjnbvgh29v2f4x8.streamlit.app/
 
 ---
 
 ## Project Files
 
 ```text
+README.md
 Sales_Data_Analysis.ipynb
 Sample - Superstore.csv
-Cleaned_Superstore.csv
+cleaned_superstore.csv
 Superstore_Dashboard.pbix
-Project_Report.pdf
-README.md
+Superstore_Dashboard.pdf
+app.py
 requirements.txt
 ```
 
@@ -76,20 +88,36 @@ requirements.txt
 - Calculated total sales and total profit.
 - Identified top-performing products.
 - Compared sales across different regions.
-- Analyzed monthly sales trends.
+- Analyzed yearly sales trends.
 - Evaluated category-wise sales distribution.
+- Visualized business performance using Power BI.
 
 ---
 
 ## Dashboard Features
 
 - KPI Cards
-- Monthly Sales Trend
 - Sales by Category
-- Sales by Region
 - Profit by Region
-- Top Products Analysis
-- Interactive Filters (Region, Category, Year)
+- Sales Trend
+- Sales by Segment
+- Interactive Filters (Region, Category, Segment)
+
+---
+
+## Requirements
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
 
 ---
 
